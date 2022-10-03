@@ -7,7 +7,8 @@ int secondNumber = int.Parse(Console.ReadLine());
 if (firstNumber == Convert.ToInt32(Math.Pow(secondNumber, 2)))
 {
     Console.Write($"Первое число {firstNumber} является квадратом второго числа {secondNumber}");
-} else
+} 
+else
 {
     Console.Write($"Первое число {firstNumber} НЕ является квадратом второго числа {secondNumber}");
 }
